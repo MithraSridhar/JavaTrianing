@@ -2,15 +2,16 @@ package studentmarksa2;
 
 public class Marks {
 
-    int m1,m2,m3,m4,m5;
-    String name;
-    public void setName(String name){
-        this.name=name;
-    }
+  private  int m1,m2,m3,m4,m5;
 
-    public String getName(){
-        return name;
-    }
+  public Marks(int m1, int m2, int m3, int m4, int m5){
+      this.m1=m1;
+      this.m2=m2;
+      this.m3=m3;
+      this.m4=m4;
+      this.m5=m5;
+  }
+
 
     public int getM1(){
         return m1;

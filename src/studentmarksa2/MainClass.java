@@ -3,8 +3,13 @@ package studentmarksa2;
 public class MainClass {
     public static void main(String[] args) {
 
-        Student student1 = new Student(90,87,86,85,80,"Mithra");
-        Student student2 = new Student(89,87,96,95,89,"Ram");
-        Student student3 = new Student(88,89,89,80,90,"Indhu");
+        Student student1 = new Student("Mithra",new Marks(87,76,85,90,90));
+        Student student2 = new Student("Ram",new Marks(87,86,75,80,90));
+        Student student3 = new Student("Indhu",new Marks(87,86,95,80,90));
+
+        MarksHelper.getTotalMarks(student1);
+        MarksHelper.getTotalMarks(student2);
+        MarksHelper.getTotalMarks(student3);
+
     }
 }

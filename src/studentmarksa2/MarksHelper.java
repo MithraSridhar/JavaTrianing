@@ -2,21 +2,25 @@ package studentmarksa2;
 
 public class MarksHelper {
 
-    int totalMarks, markAverage;
-    char grade;
 
 
-    public int getTotalMarks(int m1,int m2, int m3, int m4, int m5, String name) {
 
-
-            totalMarks = m1+m2+m3+m4+m5;
-
-        System.out.println("The total mark of the student " + name + " is " + totalMarks);
+    public static int getTotalMarks(Student student) {
+        System.out.println("Student name is "+student.getName());
+        Marks marks = student.getMarks();
+        System.out.println("Student mark1 is " + marks.getM1());
+        System.out.println("Student mark2 is " + marks.getM2());
+        System.out.println("Student mark3 is " + marks.getM3());
+        System.out.println("Student mark4 is " + marks.getM4());
+        System.out.println("Student mark5 is " + marks.getM5());
+        int  totalMarks = marks.getM1()+marks.getM2()+marks.getM3()+marks.getM4()+marks.getM5();
+        getGrade(student.getName(),totalMarks );
         return totalMarks;
     }
 
-    public void getGrade(String name) {
-        markAverage = totalMarks / 5;
+    public static void getGrade(String name, int totalMarks) {
+      int  markAverage = totalMarks / 5;
+      char grade;
         System.out.println("Students average mark is " + markAverage);
         if (markAverage > 90) {
             grade = 'A';
