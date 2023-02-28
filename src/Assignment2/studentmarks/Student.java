@@ -1,4 +1,4 @@
-package studentmarksa2;
+package Assignment2.studentmarks;
 
 public class Student {
 

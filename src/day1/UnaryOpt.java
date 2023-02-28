@@ -1,3 +1,5 @@
+package day1;
+
 public class UnaryOpt {
     public static void main(String[] args) {
 

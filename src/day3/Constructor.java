@@ -1,4 +1,6 @@
- class Employee {
+package day3;
+
+class Employee {
 
     int id; //4 bytes
     String name;
@@ -6,15 +8,15 @@
 
   //default constructor
      Employee(){
-        System.out.println("Employee constructor");
+        System.out.println("Day3.Employee constructor");
     }
    //parameterized constructor
      Employee(String name){
-         System.out.println("Employee constructor = " +name);
+         System.out.println("Day3.Employee constructor = " +name);
      }
 
     public void display(){
-        System.out.println("Employee");
+        System.out.println("Day3.Employee");
     }
 
 

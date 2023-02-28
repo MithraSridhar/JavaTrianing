@@ -1,4 +1,6 @@
- class Student {
+package day3;
+
+class Student {
 
      int[] marks;
      String name;
@@ -9,7 +11,7 @@
      Student(int[] marks, String name) {
          this.marks = marks;
          this.name = name;
-         System.out.println("Student name is " + name);
+         System.out.println("Day3.Student name is " + name);
          for (int i = 0; i < marks.length; i++) {
              System.out.println("Mark"+(i+1)+" of the student " + name + " is " + marks[i]);
          }

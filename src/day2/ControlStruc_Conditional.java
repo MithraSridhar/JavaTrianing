@@ -1,3 +1,5 @@
+package day2;
+
 public class ControlStruc_Conditional {
     public static void main(String[] args) {
         int a =2;

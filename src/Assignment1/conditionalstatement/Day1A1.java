@@ -1,3 +1,5 @@
+package Assignment1.conditionalstatement;
+
 import java.util.Scanner;
 
 public class Day1A1 {

@@ -1,9 +1,6 @@
-package studentmarksa2;
+package Assignment2.studentmarks;
 
 public class MarksHelper {
-
-
-
 
     public static int getTotalMarks(Student student) {
         System.out.println("Student name is "+student.getName());

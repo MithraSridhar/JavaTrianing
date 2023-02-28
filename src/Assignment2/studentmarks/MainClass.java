@@ -1,7 +1,8 @@
-package studentmarksa2;
+package Assignment2.studentmarks;
 
 public class MainClass {
     public static void main(String[] args) {
+
 
         Student student1 = new Student("Mithra",new Marks(87,76,85,90,90));
         Student student2 = new Student("Ram",new Marks(87,86,75,80,90));
